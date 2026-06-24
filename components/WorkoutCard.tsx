@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { exercises } from "@/data/exercises";
 import ExerciseCard from "./ExerciseCard";
-import { createWorkout } from "@/lib/workoutService";
+import { saveWorkout } from "@/lib/workoutService";
 
 type SavedExercise = {
   name: string;
